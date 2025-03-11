@@ -12,5 +12,10 @@ public class PrjClasses {
 
     public static void main(String[] args) {
         System.out.println("Hello World! I just did github");
+        
+        newClass nc = new newClass(); // creating an object of newClass
+        nc.helloClass(); // have to use variable name no to communicate with the class
+        System.out.println(nc.strSecondClassVar); //output variable from 2nd class
     }
+    
 }
